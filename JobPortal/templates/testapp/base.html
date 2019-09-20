@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{%static "css/project.css" %}">
+    <link rel="stylesheet" href="{%static "css/newfile.css" %}">
+  </head>
+  <body>
+    <div class="fixed-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+   <div class="container-fluid">
+     <div class="navbar-header">
+           <a class="navbar-brand" href="/">Skillmine
+             <!-- <div class="logo-image"> -->
+             <!-- <img class="img-fluid" src="{% static 'images/logo1.png' %}" height="40" width="40"> -->
+             <!-- </div> -->
+           </a>
+
+     </div>
+       <ul class="nav navbar-nav">
+         <li><a href="/hydjobs"><b>Hyd Jobs</b></a></li>
+         <li><a href="/blorejobs">Bangalore Jobs</a></li>
+         <li><a href="/chennaijobs">Chenai Jobs</a></li>
+         <li><a href="/punejobs">Pune Jobs</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="/signup">Signup</a></li>
+         <li><a href="/login">Login</a></li>
+         <li><a href="/accounts/logout/">Logout</a></li>
+       </ul>
+
+   </div><!-- /.container-fluid -->
+ </nav>
+</div>
+
+<div class="container">
+   {%block body_block%}
+   {%endblock%}
+</div>
+
+     <div class="fixed-footer">
+         <h4>Copyright &copy; 2019 Skill-Mine</h4>
+     </div>
+
+  </body>
+</html>

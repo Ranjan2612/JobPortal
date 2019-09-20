@@ -1,0 +1,146 @@
+.container .jumbotron{
+  background: lightgrey;
+  color: blue;
+  margin-top: 150px;
+  margin-bottom: 10%;
+  /* border-radius: 100px; */
+  /* background-image: url("../images/logo1.png"); */
+  background-repeat: no-repeat;
+  background-size: 700px 141px;
+  background-position: left;
+  /* background-size: cover; */
+}
+
+.container .jumbotron .abc{
+  padding-left: 550px;
+}
+
+body{
+  background: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/job-portal-background-images-6.jpg)
+}
+.container{
+  margin-top: 150px;
+}
+.fixed-header{
+  height: 80px;
+  width: 50px
+}
+.jumbotron a{
+  background: green;
+  color:white;
+  border:2px solid red;
+}
+img{
+  height: 200px;
+  width:30%;
+  float:left;
+  margin:1.5%;
+  border:2px solid red;
+}
+.imagesb
+{
+  border:3px solid red;
+}
+h1{
+  color:white;
+  text-align: center;
+  background:#021417;
+}
+table,thead,th,tr,td{
+    color:Black;
+    border:2px solid #bdeb34;
+    font-size: 20px;
+    margin:auto;
+    background:silver;
+}
+thead,th{
+    color:white;
+    border:2px solid white;
+    font-size: 20px;
+    margin:auto;
+    background:black;
+}
+
+.navbar-header{
+  color:#1b0638;
+}
+
+.body{
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+
+
+    .brand-name {
+font-family: 'Josefin Slab', serif;
+font-size: 47px;
+font-weight: bold;
+color: #444;
+text-decoration: none;
+}
+
+.nav-container {
+padding-top: 8px;
+}
+
+.navbar-custom {
+font-size: 20px;
+background-color: #FFF;
+
+}
+
+.logo-image{
+   width: 46px;
+   height: 46px;
+   border-radius: 100%
+   overflow: hidden;
+   margin-top: -6px;
+}
+h4{
+  text-align: center;
+}
+
+
+
+/*logout page*/
+.imgc {
+    border-radius: 50%;
+}
+
+.b1 {
+    background-color: #FFD700;
+    border: none;
+    color: black;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 12px;
+}
